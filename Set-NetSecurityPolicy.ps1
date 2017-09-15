@@ -1,7 +1,7 @@
 function Set-NetSecurityPolicy {
     [CmdletBinding(SupportsShouldProcess)]
     param(
-        [Parameter()]
+        [Parameter(Position = 0)]
         [System.Net.SecurityProtocolType[]] $SecurityProtocol,
 
         [Parameter()]
